@@ -1,0 +1,29 @@
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+  
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.column {
+  width: 33.33%;
+  flex: 33.33%;
+  padding: 5px;
+}
+
+li {
+  text-align: left;
+}

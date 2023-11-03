@@ -1,18 +1,23 @@
 import { Title } from "solid-start";
-import Counter from "~/components/Counter";
+import Solid from "../assets/solid.jpeg";
 
 export default function Home() {
   return (
     <main>
-      <Title>Hello World</Title>
-      <h1>Hello world!</h1>
-      <Counter />
+      <Title>Solid</Title>
+      <h1>SolidJS</h1>
+      <a href="/compare">
+        <img src={Solid}></img>
+      </a>
+      <p style={{ "font-size": '30px' }}>
+        Solid is a declarative JavaScript library for creating user interfaces.
+        <br/>
+        First released on 2018.
+      </p>
       <p>
-        Visit{" "}
-        <a href="https://start.solidjs.com" target="_blank">
-          start.solidjs.com
-        </a>{" "}
-        to learn how to build SolidStart apps.
+        <a href="/compare">
+          Compare Solid with React
+        </a>
       </p>
     </main>
   );

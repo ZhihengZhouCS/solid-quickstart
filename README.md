@@ -2,7 +2,10 @@
 
 ![Netlify + Solid](https://user-images.githubusercontent.com/43764894/223558736-6cf48156-2316-419d-8be9-e318ecf0e4be.png)
 
+This project is linked to the netlify for deployment.
 
+Deployment Status: 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b373cb09-fb87-423b-a163-16c6f253cbeb/deploy-status)](https://app.netlify.com/sites/jolly-lollipop-388557/deploys)
 
 A Solid Quickstart template that will get you started with everything you need to build a Solid project, powered by [`solid-start`](https://github.com/ryansolid/solid-start/tree/master/packages/solid-start);
 
