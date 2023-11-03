@@ -14,7 +14,7 @@ export default function Compare() {
       <p style={{ "font-size": '25px' }}>
         React's unidirectional flow and explicit segregation of read and write in its Hooks API informed Solid's API.
       </p>
-      <h2 style={{ "padding-top": "50px", color: "darkblue" }}>
+      <h2 style={{ "padding-top": "50px", color: "darkblue", "font-size": "50px" }}>
         Similar Hooks.
       </h2>
       <p style={{ "font-size": '25px' }}>
@@ -35,25 +35,25 @@ export default function Compare() {
         createMemo and useMemo
       </p>
 
-      <h2 style={{ "padding-top": "50px", color: "darkblue" }}>
+      <h2 style={{ "padding-top": "50px", color: "darkblue", "font-size": "50px" }}>
         Fundamental differences
       </h2>
 
       <div class="row">
         <div class="column">
-          <h3>Solid</h3>
-          <ul>
-            <li>Directly manipulate the browser's DOM</li>
-            <li>Only update the changed components</li>
-            <li>Higher performance?</li>
+          <h3 style={{ "font-size": "30px" }}>Solid</h3>
+          <ul style={{ "font-size": "20px" }}>
+            <li><p>Directly manipulate the browser's DOM</p></li>
+            <li><p>Only update the changed components</p></li>
+            <li><p>Higher performance?</p></li>
           </ul>
         </div>
         <div class="column">
-          <h3>React</h3>
-          <ul>
-            <li>Use virtual DOM to interface with the browser's actual DOM</li>
-            <li>Re-render all components on each update</li>
-            <li>Relying on DOM difference calculations</li>
+          <h3 style={{ "font-size": "30px" }}>React</h3>
+          <ul style={{ "font-size": "20px" }}>
+            <li><p>Use virtual DOM to interface with the browser's actual DOM</p></li>
+            <li><p>Re-render all components on each update</p></li>
+            <li><p>Relying on DOM difference calculations</p></li>
           </ul>
         </div>
       </div>
